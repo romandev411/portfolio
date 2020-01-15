@@ -1,0 +1,26 @@
+.top-panel {
+	position: sticky;
+	top: 0;
+	z-index: 5;
+	display: flex;
+	align-items: center;
+	height: 70px;
+	background: #191919;
+	padding: 15px;
+
+	&:before {
+		content: '';
+		position: absolute;
+		height: 50px;
+		width: 2px;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		background-color: hsla(0, 0%, 81%, .15);
+	}
+}
+
+.top-panel__desc {
+	height: 100%;
+}
