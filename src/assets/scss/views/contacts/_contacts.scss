@@ -1,0 +1,21 @@
+.contacts {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	padding: 30px;
+	background: var(--light-bg);
+}
+
+.contacts__item {
+	font-size: 16px;
+	font-weight: 700;
+	font-family: Arial, sans-serif;
+
+	&:not(:last-child) {
+		margin-bottom: 16px;
+	}
+}
+
+.contacts__link {
+	color: #0000ee;
+}

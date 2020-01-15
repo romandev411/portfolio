@@ -18,7 +18,7 @@ const routes = [
 	{
 		path: '/contacts',
 		name: 'contacts',
-		component: () => import(/* webpackChunkName: "contacts" */ '~/views/Contacts.vue')
+		component: () => import(/* webpackChunkName: "contacts" */ '~/views/Contacts/Contacts.vue')
 	},
 	{
 		path: '/custom-reset',
