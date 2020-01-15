@@ -7,7 +7,7 @@
 	width: 40%;
 	height: 70px;
 	justify-content: space-between;
-	background: #191919;
+	background-color: var(--dark-bg);
 }
 
 .header__logo-wrap {
@@ -60,12 +60,12 @@
 }
 
 .header__logo-text--1 {
-	color: #fff;
+	color: var(--light-color);
 	text-shadow: -1px 1px 0 #1f62ae;
 }
 
 .header__logo-text--2 {
-	color: #fff;
+	color: var(--light-color);
 	text-shadow: -1px 1px 0 #1f62ae;
 }
 

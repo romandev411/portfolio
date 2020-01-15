@@ -8,7 +8,7 @@
 	width: 60%;
 	height: 100px;
 	padding: 30px;
-	background-color: #191919;
+	background-color: var(--dark-bg);
 
 	&:before {
 		content: '';

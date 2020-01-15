@@ -9,7 +9,7 @@
 	padding-bottom: 16px;
 	margin-bottom: 16px;
 	font-size: 24px;
-	color: #000;
+	color: var(--dark-color);
 	font-weight: 600;
 
 	&:before {
@@ -19,7 +19,7 @@
 		left: 0;
 		height: 1px;
 		width: 100%;
-		background-color: var(--dark-color);
+		background-color: var(--dark-bg);
 	}
 }
 
@@ -35,6 +35,6 @@
 
 .links-list__link {
 	text-decoration: underline;
-	color: #0000ee;
+	color: var(--link-color);
 	font-size: 16px;
 }
