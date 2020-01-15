@@ -1,0 +1,85 @@
+.about {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	padding: 30px;
+	background: var(--light-bg);
+}
+
+.about__info-name {
+	margin-bottom: 16px;
+	font-size: 26px;
+	color: var(--dark-color);
+	font-weight: 500;
+}
+
+.about__info-position {
+	margin-bottom: 18px;
+	font-size: 24px;
+	font-weight: 700;
+	color: var(--dark-color);
+}
+
+.about__description {
+	max-width: 600px;
+	margin-bottom: 24px;
+	font-size: 16px;
+	font-weight: 500;
+	color: var(--dark-color);
+	line-height: 1.3;
+}
+
+.about__info-sub {
+	margin-bottom: 20px;
+}
+
+.about__info-title {
+	display: inline-block;
+	border-bottom: 2px solid var(--brand-color);
+	padding-bottom: 5px;
+	color: var(--dark-color);
+	font-weight: 600;
+	font-size: 16px;
+
+	&:not(:last-child) {
+		margin-right: 8px;
+	}
+}
+
+.about__info-text {
+	font-size: 16px;
+	color: var(--dark-color);
+}
+
+.about__skills-title {
+	margin-bottom: 16px;
+}
+
+.about__skills {
+	padding-left: 20px;
+	margin-bottom: 16px;
+}
+
+.about__skills-item {
+	list-style-type: disc;
+	font-size: 16px;
+	font-weight: 500;
+	color: var(--dark-color);
+
+	&:not(:last-child) {
+		margin-bottom: 16px;
+	}
+}
+
+.about__ico-list {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 548px;
+	opacity: .7;
+}
+
+.about__ico-item {
+	height: 70px;
+	width: 70px;
+	margin: 8px;
+}

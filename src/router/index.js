@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../components/Home/Home.vue'
+import Home from '~/views/Home/Home.vue'
 
 Vue.use(VueRouter)
 
@@ -13,17 +13,17 @@ const routes = [
 	{
 		path: '/about',
 		name: 'about',
-		component: () => import(/* webpackChunkName: "about" */ '../components/About/About.vue')
+		component: () => import(/* webpackChunkName: "about" */ '~/views/About/About.vue')
 	},
 	{
 		path: '/contacts',
 		name: 'contacts',
-		component: () => import(/* webpackChunkName: "contacts" */ '../views/Contacts.vue')
+		component: () => import(/* webpackChunkName: "contacts" */ '~/views/Contacts.vue')
 	},
 	{
 		path: '/custom-reset',
-		name: 'contacts',
-		component: () => import(/* webpackChunkName: "contacts" */ '../components/CustomReset/CustomReset.vue')
+		name: 'custom-reset',
+		component: () => import(/* webpackChunkName: "CustomReset" */ '~/views/CustomReset/CustomReset.vue')
 	},
 ]
 

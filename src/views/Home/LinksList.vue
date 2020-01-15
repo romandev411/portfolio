@@ -55,6 +55,16 @@
 						],
 					},
 					{
+						title: 'Портфолио: версия разработки на github',
+						icon: 'icon-github',
+						links: [
+							{
+								title: 'https://github.com/romandev411/portfolio',
+								link: 'https://github.com/romandev411/portfolio',
+							},
+						],
+					},
+					{
 						title: 'Обзор портфолио на youtube канале webDev',
 						icon: 'icon-youtube',
 						links: [

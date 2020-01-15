@@ -30,8 +30,8 @@
 </template>
 
 <script>
-	import CubeLetter from './CubeLetter'
-	import ButtonAnim from '../../components/Common/ButtonAnim'
+	import CubeLetter from '~/views/Home/CubeLetter'
+	import ButtonAnim from '~/components/Common/ButtonAnim'
 
 	export default {
 		components: {

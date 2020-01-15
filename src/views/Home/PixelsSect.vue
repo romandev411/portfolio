@@ -7,7 +7,7 @@
 </template>
 
 <script>
-	import Pixel from '../Common/Pixel'
+	import Pixel from '~/components/Common/Pixel'
 
 	export default {
 		components: {

@@ -33,11 +33,11 @@
 </template>
 
 <script>
-	import Menu from './Menu'
+	import Menu from '~/components/Layout/Menu'
 
 	export default {
 		components: {
-			Menu: Menu,
+			Menu,
 		},
 		data() {
 			return {

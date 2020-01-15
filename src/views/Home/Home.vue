@@ -14,11 +14,7 @@
 
 		<template v-slot:content>
 			<section class="home" id="home">
-				<header class="home__headline">
-					<h2 class="home__title">
-						Мои работы
-					</h2>
-				</header>
+				<Headline>Мои работы</Headline>
 
 				<section class="home__desc">
 					<div class="home__menu">
@@ -57,14 +53,15 @@
 </template>
 
 <script>
-	import Layout from '../Layout/Layout'
-	import TopPanel from '../Layout/TopPanel'
-	import MainScreen from './MainScreen'
-	import PixelsSect from './PixelsSect'
-	import WorksGalery from './WorksGalery'
-	import WorksJs from './WorksJs'
-	import LinksList from './LinksList'
-	import Button from '../../components/Common/Button'
+	import Layout from '~/components/Layout/Layout'
+	import TopPanel from '~/components/Layout/TopPanel'
+	import MainScreen from '~/views/Home/MainScreen'
+	import PixelsSect from '~/views/Home/PixelsSect'
+	import WorksGalery from '~/views/Home/WorksGalery'
+	import WorksJs from '~/views/Home/WorksJs'
+	import LinksList from '~/views/Home/LinksList'
+	import Button from '~/components/Common/Button'
+	import Headline from '~/components/Layout/Headline'
 
 	export default {
 		components: {
@@ -76,6 +73,7 @@
 			WorksJs,
 			LinksList,
 			Button,
+			Headline,
 		},
 		data() {
 			return {
